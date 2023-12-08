@@ -8,6 +8,11 @@ tags: aws, cloud-computing, devops, aws-community-builder, ebs-snapshot
 
 ---
 
+* Architecture for this lab:
+    
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702032812239/7dcce3b5-0f9b-4a64-8b3f-83bcefb1cb74.png align="center")
+
 * We will create a new SNS topic and SNS email subscription that we will use with our CloudWatch Events rule.
     
 
@@ -39,11 +44,12 @@ tags: aws, cloud-computing, devops, aws-community-builder, ebs-snapshot
         
         ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702032378030/2ea67f22-7d9a-4cda-a6bf-758844f1060a.png align="center")
         
-
-1. Finally, Review all the configurations and create a rule.
+    6. Finally, Review all the configurations and create a rule.
+        
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702032436141/d61b5b02-ea13-4283-b041-091791a713dd.png align="center")
     
-2. Now, wait for the Snapshot to be created automatically.
+    1. Now, wait for the Snapshot to be created automatically.
+        
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1702032491501/117516cc-9b6b-4e94-83cb-56f54d18613a.png align="center")
